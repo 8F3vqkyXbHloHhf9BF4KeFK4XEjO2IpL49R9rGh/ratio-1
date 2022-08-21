@@ -1,4 +1,5 @@
 repeat task.wait() until game:IsLoaded() -- Could be more optimized but it's not gonna last very long so idc
+if game.PlaceId == 379614936 or game.PlaceId == 379614936 or game.PlaceId == 5006801542 or game.PlaceId == 860428890 then
 _G.oldpcall = getrenv().pcall
 old = getrenv().pcall
 getrenv().pcall = newcclosure(function(...)
@@ -12,3 +13,4 @@ getrenv().pcall = newcclosure(function(...)
     end
     return old(...)
 end)
+end
