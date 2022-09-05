@@ -1,4 +1,3 @@
-repeat task.wait() until game:IsLoaded() -- Could be more optimized but it's not gonna last very long so idc
 for i,v in pairs(getconnections(game.ScriptContext.Error)) do -- No
     v:Disable()
 end
