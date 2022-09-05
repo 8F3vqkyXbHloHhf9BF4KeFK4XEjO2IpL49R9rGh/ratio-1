@@ -10,7 +10,7 @@ if game.PlaceId == 379614936 or game.PlaceId == 379614936 or game.PlaceId == 500
         if not checkcaller() then
             for _, c in pairs(getconstants(args[1])) do
                 if c == "FindService" or c == "GetService" then
-                    return old(function() end)
+                    return
                 end
             end
         end
